@@ -30,10 +30,56 @@ This repository contains **sample code and workflows** that demonstrate my skill
 
 ---
 
-## 🔗 Quick Links
+## Quick Links
 - [Bash HPC Pipeline Script](bash_hpc/rnaseq_pipeline.sh)
 - [Python RNA-seq Analysis Notebook](python_analysis/rnaseq_analysis.ipynb)
 - [R DESeq2 Workflow](r_analysis/deseq2_analysis.Rmd)
+
+---
+
+## How to Run
+**Bash HPC Pipeline Script**
+
+File: bash_hpc/rnaseq_pipeline.sh
+1. Load required modules on your HPC cluster (e.g., fastqc, hisat2, samtools).
+2. Submit the job to SLURM
+--sbatch rnaseq_pipeline.sh--
+This will run FASTQC, align reads using HISAT2, and output BAM files for downstream analysis
+
+**Python RNA-seq Analysis Notebook**
+
+File: python_analysis/rnaseq_analysis.ipynb
+1. Open the notebook in Jupyter Lab/Notebook.
+2. Install dependencies if needed.
+3. Run all cells to see:
+   - Count normalization (CPM)
+   - Bar plots of top expressed genes
+
+**R DESeq2 Workflow**
+
+File: r_analysis/deseq2_analysis.Rmd
+1. Open the .Rmd file in RStudio.
+2. Install required R packages if not already installed.
+3. Knit the file to HTML or PDF to generate:
+   - MA plot
+   - Volcano plot for differential expression results
+
+---
+
+## Future Projects
+This repository will expand over time to showcase more advanced bioinformatics and computational biology skills. Planned additions include:
+
+**Metagenomics Pipeline** – Automating 16S rRNA and shotgun metagenomics workflows with Snakemake or Nextflow.
+
+**Containerized Workflow** – Packaging RNA-seq analysis in a Docker container for easy reproducibility.
+
+**Machine Learning on Gene Expression** – Building a model to predict sample phenotype (e.g., disease state) from expression data.
+
+**Interactive Dashboard** – Creating a Streamlit or Shiny dashboard for exploring gene expression data.
+
+**Cloud-Based Analysis** – Running workflows on AWS or Google Cloud to demonstrate cloud bioinformatics capabilities.
+
+**AI Integration** – Experimenting with LLMs to assist with code writing, dataset annotation, and figure generation.
 
 ---
 
