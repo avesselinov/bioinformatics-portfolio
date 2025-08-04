@@ -1,0 +1,31 @@
+---
+title: "RNA-seq DESeq2 Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(DESeq2)
+library(ggplot2)
+```
+
+```{r load-data}
+counts <- read.csv("../data/gene_counts.csv", row.names=1)
+meta <- read.csv("../data/metadata.csv")
+```
+
+```{r deseq}
+dds <- DESeqDataSetFromMatrix(countData = counts,
+                              colData = meta,
+                              design = ~ condition)
+dds <- DESeq(dds)
+res <- results(dds)
+```
+
+```{r plots}
+plotMA(res, ylim=c(-2,2))
+
+ggplot(res, aes(x=log2FoldChange, y=-log10(pvalue))) +
+  geom_point(alpha=0.4) +
+  theme_minimal() +
+  labs(title="RNA-seq Differential Expression")
+```
