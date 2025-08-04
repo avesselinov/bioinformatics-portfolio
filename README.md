@@ -1,6 +1,6 @@
 # Alexandra Vesselinov - Bioinformatics Portfolio
 
-This repository contains **sample code and workflows** that demonstrate my skills in **bioinformatics, data science, and computational biology**. These examples reflect the type of work I’ve done through research internships, coursework, and independent projects.
+This repository contains **sample code and workflows** that demonstrate my skills in **bioinformatics, data science, and computational biology**. These examples reflect the type of work I’ve done through research-based coursework and independent projects.
 
 ---
 
