@@ -30,6 +30,13 @@ This repository contains **sample code and workflows** that demonstrate my skill
 
 ---
 
+## 🔗 Quick Links
+- [Bash HPC Pipeline Script](bash_hpc/rnaseq_pipeline.sh)
+- [Python RNA-seq Analysis Notebook](python_analysis/rnaseq_analysis.ipynb)
+- [R DESeq2 Workflow](r_analysis/deseq2_analysis.Rmd)
+
+---
+
 ## Contact
 
 Alexandra Vesselinov  
