@@ -1,2 +1,36 @@
-# bioinformatics-portfolio
-Bioinformatics portfolio showcasing RNA-seq workflows, HPC scripts, and data visualization in Python, R, and Bash. Includes toy datasets, reproducible analysis pipelines, and well-documented code for computational biology projects.
+# Alexandra Vesselinov - Bioinformatics Portfolio
+
+This repository contains **sample code and workflows** that demonstrate my skills in **bioinformatics, data science, and computational biology**. These examples reflect the type of work I’ve done through research internships, coursework, and independent projects.
+
+---
+
+## Repository Structure
+
+**`/bash_hpc/`** – Bash scripts for HPC clusters (SLURM-based) to process NGS data  
+**`/python_analysis/`** – Python notebooks for RNA-seq, metagenomics, and visualization  
+**`/r_analysis/`** – R Markdown for RNA-seq differential expression using DESeq2  
+**`/data/`** – Sample datasets used for demonstration (publicly available or simulated)
+
+---
+
+## Skills Demonstrated
+**Python** (data cleaning, visualization, RNA-seq)  
+**R** (statistical analysis, DESeq2, ggplot2)  
+**Bash** (HPC scripts, SLURM jobs, NGS workflows)  
+**Linux/Unix navigation**  
+**Version control** (GitHub organization, commits)  
+
+---
+
+## Highlights
+
+- **RNA-seq Analysis (Python)**: Normalization, visualization of gene expression, and bar plots of top genes.  
+- **Differential Expression (R)**: Complete DESeq2 workflow with an MA plot and volcano plot.  
+- **HPC SLURM Script**: Bash job script to run FASTQC, HISAT2 alignment, and SAM/BAM conversions on a cluster.  
+
+---
+
+## Contact
+
+Alexandra Vesselinov  
+alexandra.vesselinov@gmail.com  
